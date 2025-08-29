@@ -1,0 +1,1 @@
+export const ProductTypesEnum = ['Food', 'Groceries', 'Cosmetics', 'Clothes'];
