@@ -4,8 +4,6 @@ import { Products } from "src/modules/products/domain/entities/product.entity";
 import { Repository } from "typeorm";
 import { Orders } from "../domain/entities/order.entity";
 import { User } from "src/modules/user/domain/entities/user.entity";
-import { ExceptionsHandler } from "@nestjs/core/exceptions/exceptions-handler";
-import { MESSAGES } from "@nestjs/core/constants";
 
 @Injectable()
 export class OrderService{
